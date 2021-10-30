@@ -11,3 +11,9 @@ variable "tags" {
     test = "test"
   }
 }
+
+variable "myip" {
+  description = "My IPv4 address used in policy."
+  type        = string
+  default     = null
+}

@@ -1,4 +1,4 @@
 output "bucket_name" {
   description = "The name of the bucket."
-  value       = aws_s3_bucket.bucket.bucket
+  value       = aws_s3_bucket.mybucket.id
 }
